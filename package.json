@@ -1,0 +1,17 @@
+{
+  "name": "ups_rest",
+  "version": "1.0.0",
+  "description": "interface for ups oauth rest api",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "express": "^4.19.2",
+    "mysql2": "^3.10.3",
+    "node-fetch": "^3.3.2"
+  }
+}
