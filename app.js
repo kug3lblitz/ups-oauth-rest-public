@@ -74,7 +74,7 @@ app.get('/:ranum', async (req, res) => {
 							Description: '',
 							Shipper: {
 								Name: sname,
-								AttentionName: sname,
+								AttentionName: '',
 								TaxIdentificationNumber: '',
 								Phone: {
 									Number: sphone,
