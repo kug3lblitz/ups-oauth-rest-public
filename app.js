@@ -28,7 +28,9 @@ app.get('/:ranum', async (req, res) => {
 			szip = shipper zip
 		*/
 		let sname = '';
+		sname = sname.substring(0, 29); // truncate value to no more than 30 characters so that ups doesn't get butthurt
 		let saddr = '';
+		saddr = saddr.substring(0, 29);
 		let scity = '';
 		let sstate = '';
 		let szip = '';
